@@ -1,0 +1,75 @@
+@media screen and (max-width: 1170px) {
+    #studentProfile{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .profile{
+        height: 700px;
+        width: 400px;
+    }
+    .navbar{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    ul{
+        min-width: 80%;
+        font-size: 15px;
+    }
+    .studentInfo{
+        width: 100%;
+        margin-top: -500px;
+        margin-bottom: 50px;
+        z-index:1;
+    }
+    .ids{
+        text-shadow: 2px 2px 4px #ada9a9;
+    }
+    .ids .number{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:530px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .ids .name{
+        font-size: 26px;
+    }
+    .ids .number{
+        font-size: 13px;
+    }
+    .gpa{
+        width: 60px;
+        height: 60px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .navbar{
+        margin-top: 10px;
+    }
+    .studentInfo{
+        margin-bottom: 10px;
+    }
+    .mg{
+        margin-top: 10px;
+    }
+    .circle{
+        width: 35px;
+        height: 35px;
+    }
+    .studentContent{
+        margin: 25px;
+    }
+    .of img{
+        height: 80%;
+    }
+    .mg h1{
+        font-size: 20px;
+    }
+    .t-i h1{
+        height: auto;
+    }
+}
